@@ -41,6 +41,7 @@ function Login() {
                         <Button type="submit" fullWidth variant="contained" color="primary">Login</Button>
                     </form>
                     <p>Belum Punya akun?</p><Link to={"/register"}> Register</Link>
+                    <p>Lupa Password</p> <Link to={"/resetpassword"}>Reset Pasword</Link>
                 </Grid>
 
             </Grid>
